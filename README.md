@@ -4,7 +4,7 @@ A Qt widget for displaying and editing a dataflow graph.
 
 It is based on the [Graphics View Framework](http://doc.qt.io/qt-5/graphicsview.html) and it uses the [Model/View architecture](http://doc.qt.io/qt-5/model-view-programming.html).
 
-# Building a simple Dataflow application
+## Building a simple Dataflow application
 
 ![screenshot](/screenshot.png?raw=true)
 
@@ -212,7 +212,7 @@ See mainwindow.ui/h/cpp for a complete example.
 
 Note: in the widget, it is possible to create new objects by double clicking on an empty area, or edit existing objects by double clicking objects. Objects and connections can be removed by selecting them and hitting backspace. Connections are created by dragging from outlet to inlet.
 
-# Using the Model API
+## Using the Model API
 
 We can use the Model API to create or edit the dataflow graph programatically:
 
@@ -230,3 +230,14 @@ model->addConnection(add->outlet(0), sink->inlet(0));
 
 The model will emit signals for when a node/connection is added, removed, and also when a node change its validity status, position, text, inlet count, and outlet count.
 
+## Contribute
+
+If you want to contribute with development, fork and make a pull requests. PRs are very welcome!
+
+If you want to donate, use one of the following methods:
+
+ - BTC: `34RqXSKCgPrVJ8Q266ahiWx3TfV2xAdNKv`
+ - BCH: `1PwoEfCk7cjjYiC3B9y5JQkCAtZsaZwfxn`
+ - ETH: `0x3a1Fe92C19609835De3975F64fca4c4aA9B0BDf3`
+ - LTC: `LYTUr4xiMjwii88J8sZ44wWu8GCaCQVx3W `
+ - XMR: `4GdoN7NCTi8a5gZug7PrwZNKjvHFmKeV11L6pNJPgj5QNEHsN6eeX3DaAQFwZ1ufD4LYCZKArktt113W7QjWvQ7CWCSnRSymAvuG1vvpqi`
